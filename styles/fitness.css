@@ -1,0 +1,50 @@
+/* shared style fonts */
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:"wdth" 100;
+}
+
+.meow-script-font {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#menu-toggle , .menu-icon {
+  display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+/* nav-bar style sections */
+header{
+    width: 1450px;
+    margin: 0% auto;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.fitness{
+    color: #E6533C;
+    font-size: 2.15rem;
+    font-weight: bolder;
+    line-height: 120%;
+}
+.nav-items{
+    border: 1px solid grey;
+    gap: 45px;
+}
+.item-name{
+    list-style: none;
+    
+}
+.item-name > a{
+    text-decoration: none;
+    
+}
